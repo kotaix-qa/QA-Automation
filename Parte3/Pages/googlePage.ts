@@ -1,5 +1,5 @@
 import  {Selector} from 'testcafe';
-import {TottusPage} from './TottusStoreLocations'
+import {TottusPage} from './TottusLocationPage'
 import {t} from 'testcafe'
 
 export class GooglePage {
@@ -11,12 +11,11 @@ export class GooglePage {
 
 
 //ACTIONS
-    async  setSearchRequest(setSearchText){
+    async setSearchRequest(setSearchText){
         await t.typeText(this.searchBar, setSearchText)
         await t.click(this.searchBttn)
     };
         
-            
 
-    
+
 };
