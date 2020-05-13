@@ -7,7 +7,7 @@ export class GooglePage {
     private readonly searchBar = Selector(".gLFyf");
     private readonly searchBttn = Selector(".FPdoLc > center:nth-child(1) > input:nth-child(1)").withText("Buscar con Google");
     private readonly resultsTotal = Selector("#rso");
-    private readonly resultStoreLocations = Selector("#rso > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1) > div:nth-child(3) > cite:nth-child(1) > span:nth-child(1)");
+    private readonly resultStoreLocations = Selector("#rso > div:nth-child(2) > div:nth-child(2) > div:nth-child(1) > a:nth-child(1)");
     
 //ACTIONS
     async setSearchRequest(setSearchText){
