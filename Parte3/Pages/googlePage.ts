@@ -13,7 +13,8 @@ export class GooglePage {
 //ACTIONS
     async setSearchRequest(setSearchText){
         await t.typeText(this.searchBar, setSearchText)
-        await t.click(this.searchBttn)
+        await t.pressKey("enter");
+        
     };
         
 
