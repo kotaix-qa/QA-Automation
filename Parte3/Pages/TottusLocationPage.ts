@@ -15,5 +15,12 @@ async goToRecetasYmas() {
 
 }
 
+    //GETTERS
+async getStoreFoundCount():Promise<string> {
+    let getStoresFoundText = (this.storesFound.innerText);
+    return getStoresFoundText;
+
+}
+
 }
     
