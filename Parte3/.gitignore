@@ -20,6 +20,7 @@ docs/
 *.lst
 
 # Node_Modules Folder
+.node-modules
 .Node_Modules
 .Medinet-master
 .node-modules
