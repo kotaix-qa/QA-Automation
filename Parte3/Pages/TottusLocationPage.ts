@@ -12,6 +12,7 @@ export class TottusPage {
 async goToRecetasYmas() {
     await t.click(this.recetasYmas)
     return new tottusRecetasPage;
+    
 
 }
 
