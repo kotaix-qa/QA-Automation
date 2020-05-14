@@ -1,0 +1,12 @@
+
+{
+    "src": "Parte3/Test/Tests.ts",
+    "browsers": ["chrome","ie"],
+    "skipJsErrors": true,
+    "pageLoadTimeout": 10000,
+    "selectorTimeout": 5000,
+    "screenshots": {
+        "takeOnFails": true,
+        "fullPage": true
+    }
+}

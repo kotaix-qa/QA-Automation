@@ -1,4 +1,38 @@
 # QA-Automation
+# LEEME #
+Bienvenido a mi proyecto tecnico de Testcafe para Falabella-QA.
+
+Este proyecto de automatización sigue las estrictas normas de Page Model Object, considerando:
+
+    1)Parte3/Pages:  Carpeta que almacena cada  página que se encuentra aislada para facilitar la detección de errores y agilizar su mantenibilidad. TestController y Engine se ejecutan unicamente desde Page.
+
+    2)Parte3/Test:   Carpeta  que almacena las pruebas sin exponer Engine ni TestController, solo ejecuta las funciones y metodos creadas en Page.
+
+    3)Parte3/Component: Carpeta que almacena componentes bases que son estaticos durante el proceso del negocio, no aplicable en este proyecto de prueba.
+
+
+A. Para utilizar testcafe de este proyecto tienes 2 opciones:
+
+    1) Instalar la versión de este package.json, ejecutando el npm
+
+    2) desde la terminal sobre /QA-Automation/, puedes ejecutar NPX Testcafe, automaticamente creará dependencias temporales para correr las pruebas.
+
+
+B. el archivo .testcaferc.json tiene las bases para ejecutar IE y Chrome, puede agregar o quitar los navegadores que estimes convenientes (opera, Firefox,Chrome,IE)
+
+
+
+C. En cada PAGE se utiliza modelo de LOCATORS, ACTIONS, GETTERS:
+    Locators: Hace referencia a los elementos de la WEB
+    Actions: Hace referencia a QUE PUEDES HACER con un elemento.
+    GETTER: Hace referencia a que PUEDES OBTENER de un elemento.
+
+D. Este proyecto ha sido creado en JavaScript/TypeScript para obtener el mayor rendimiento/funcionalidad de Testcafe (No olvidemos que el fuerte de Testcafe es TypesScript).
+   Ya que al utilizar JavaScript en archivos TypeScript, crear automatización QA es más viable al ser un lenguaje altamente tipado. Testcafe lo soporta de manera nativa.    
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+
  Falabella Technical Test
 
  Parte 1

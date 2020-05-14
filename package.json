@@ -1,0 +1,25 @@
+{
+  "name": "qa-automation",
+  "version": "1.0.0",
+  "description": "Testcafe Technical Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kotaix-qa/QA-Automation.git"
+  },
+  "keywords": [
+    "testcafe"
+  ],
+  "author": "Juan Hauyon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kotaix-qa/QA-Automation/issues"
+  },
+  "homepage": "https://github.com/kotaix-qa/QA-Automation#readme",
+  "devDependencies": {
+    "testcafe": "1.8.4"
+  }
+}
