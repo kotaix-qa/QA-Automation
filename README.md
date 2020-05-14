@@ -60,7 +60,7 @@ Considerar que todos los campos a ingresar son Sensitive Case.
 Crear los casos de prueba posibles para testear este microservicio, teniendo en cuenta que cuando es un País distinto a los señalados o una ciudad distinta el response "País y Ciudad incorrectos".
 
 
-Parte 3
+Parte 3 >> TERMINADO EN CARPETA PARTE 3
 
 
 La página web a utilizar será Google y Tottus
