@@ -1,7 +1,8 @@
 # QA-Automation
 # LEEME #
 Bienvenido a mi proyecto tecnico de Testcafe para Falabella-QA.
-RECUERDE INICIAR NPM I para instalar las dependencias.
+REMINDER: Antes de empezar, ejecutar npm i para instalar las dependencias y el reporter.
+          El reporter se encuentra en Parte3/Reports, puede abrirlo con cualquier navegador
 
 Este proyecto de automatización sigue las estrictas normas de Page Model Object, considerando:
 
