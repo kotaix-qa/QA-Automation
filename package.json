@@ -21,5 +21,8 @@
   "homepage": "https://github.com/kotaix-qa/QA-Automation#readme",
   "devDependencies": {
     "testcafe": "1.8.4"
+  },
+  "dependencies": {
+    "testcafe-reporter-html": "1.4.6"
   }
 }

@@ -22,7 +22,7 @@ fixture("Parte3 - Prueba Tecnica Falabella").page(GooglaCLWeb);
         await recetasPage.selectRollitosCanela();
         let RollitosCanela = new RollitosCanelaPage();
         const getRecipeName = await RollitosCanela.getRecipeName();
-        await t.expect(getRecipeName).eql("CORONA DE ROLLITOS DE CANELA");
+        await t.expect(getRecipeName).eql("corona de rollitos de canela")
         const getAzucarRubia = await RollitosCanela.getAzucarRubia();
         await t.expect(getAzucarRubia).eql("– 125g azúcar rubia");
         const getCanela = await RollitosCanela.getCanela();

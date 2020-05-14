@@ -17,24 +17,24 @@ export class RollitosCanelaPage {
     //GETTERS
     async getRecipeName():Promise<String>{
         let getRecipe = await this.recipeName.innerText;
-        return getRecipe.trim()
+        return getRecipe.trim().toLocaleLowerCase();
 
     }
 
     async getRecipeDifficulty():Promise<String>{
         let getRecipeDifficulty = await this.recipeDifficulty.innerText;
-        return getRecipeDifficulty.trim()
+        return getRecipeDifficulty.trim().toLocaleLowerCase();
     }
 
     async getAzucarRubia():Promise<String>{
         let getAzucarRubia = await this.azucarRubia.innerText
-        return getAzucarRubia.trim();
+        return getAzucarRubia.trim().toLocaleLowerCase();
         
     }
 
     async getCanela():Promise<String> {
         let getCanela = await this.canelaEnPolvo.innerText
-        return getCanela.trim()
+        return getCanela.trim().toLocaleLowerCase()
     }
 
 

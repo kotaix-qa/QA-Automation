@@ -1,6 +1,7 @@
 # QA-Automation
 # LEEME #
 Bienvenido a mi proyecto tecnico de Testcafe para Falabella-QA.
+RECUERDE INICIAR NPM I para instalar las dependencias.
 
 Este proyecto de automatización sigue las estrictas normas de Page Model Object, considerando:
 
